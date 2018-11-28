@@ -1,0 +1,79 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.1/libexec/bin/yarn.js add classNames
+
+PATH: 
+  /Users/yejinyong/.rvm/gems/ruby-2.4.1/bin:/Users/yejinyong/.rvm/gems/ruby-2.4.1@global/bin:/Users/yejinyong/.rvm/rubies/ruby-2.4.1/bin:/opt/iOSOpenDev/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/yejinyong/Downloads/Mac-command-wallpaper-master:/Users/yejinyong/.rvm/bin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/classNames: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:63139:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:124547:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:125519:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:125441:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "react-music-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Index.js",
+    "scripts": {
+      "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "babel": {
+      "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+      ]
+    },
+    "devDependencies": {
+      "@babel/core": "^7.1.5",
+      "@babel/preset-env": "^7.1.5",
+      "@babel/preset-react": "^7.0.0",
+      "babel-loader": "^8.0.4",
+      "css-hot-loader": "^1.4.2",
+      "css-loader": "^1.0.1",
+      "extract-text-webpack-plugin": "^4.0.0-beta.0",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.4.4",
+      "node-sass": "^4.10.0",
+      "react-hot-loader": "^4.3.12",
+      "react-slick": "^0.23.2",
+      "sass-loader": "^7.1.0",
+      "slick-carousel": "^1.8.1",
+      "style-loader": "^0.23.1",
+      "url-loader": "^1.1.2",
+      "webpack": "^4.25.1",
+      "webpack-cli": "^3.1.2",
+      "webpack-dev-server": "^3.1.10"
+    },
+    "dependencies": {
+      "react": "^16.6.1",
+      "react-dom": "^16.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
